@@ -41,10 +41,12 @@
 :root, :root .v-light, :root .v-light-head {
   --bg-color: #F3F3F3;
   --assistant-color: #E9E9E9;
-  --theme-color: #b3de4f;
+  --assistant-color2: #00dc8e;
+  --theme-color: #2C3BB8;
   --theme-color-font: #fff;
   --font-color: #5c5c5c;
   --heading-color: #000;
+  --heading-color2: #00dc8e;
   --border-color: #dcdcdc;
   --smooth-color: #141414;
   --reverse-color: #141414;
@@ -64,9 +66,11 @@
 :root .v-dark, :root .v-dark-head {
   --bg-color: #111;
   --assistant-color: #171717;
-  --theme-color: #b3de4f;
+  --assistant-color2: #00dc8e;
+  --theme-color: #2C3BB8;
   --font-color: #d9d9d9;
   --heading-color: #fff;
+  --heading-color2: #00dc8e;
   --border-color: #373737;
   --smooth-color: #f9f9f9;
   --reverse-color: #f9f9f9;
@@ -78,9 +82,11 @@
   .v-dark-head-mobile {
     --bg-color: #111;
     --assistant-color: #171717;
-    --theme-color: #b3de4f;
+    --assistant-color2: #00dc8e;
+    --theme-color: #2C3BB8;
     --font-color: #d9d9d9;
     --heading-color: #fff;
+    --heading-color2: #00dc8e;
     --border-color: #373737;
     --smooth-color: #f9f9f9;
     --reverse-color: #f9f9f9;
@@ -1124,6 +1130,7 @@ fieldset form input {
   border-radius: 30px;
   font-size: 14px;
   font-weight: 500;
+  background-color: #00dc8e !important;
 }
 .dsn-btn-shape:hover .icon {
   transform: translateX(0.75rem) rotate(45deg);
@@ -3538,6 +3545,11 @@ a:hover, a:active {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+#bg-vixoz{
+  background-color: #00dc8e !important;
+}
+
 .filtering-t .filtering-wrap .filtering button:not(:last-of-type):after {
   content: "/";
   position: absolute;
