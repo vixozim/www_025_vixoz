@@ -4961,7 +4961,7 @@ ul.list-style-none {
 }
 
 .cover-bg {
-  background-size: cover;
+  background-size: initial;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -5534,6 +5534,9 @@ ul.dsn-list .list-item.border.has-border-radius {
 }
 .color-inherit-bg.custom:after, .color-inherit-bg.custom:before, .color-inherit-bg.custom span:before, .color-inherit-bg.custom span:after {
   background-color: var(--dsn-custom-color, var(--heading-color));
+}
+.list-services{
+  color: var(--assistant-color2) !important;
 }
 
 .background-section .dsn-revere-bg {
@@ -7096,7 +7099,8 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   display: flex;
   position: absolute;
   top: 15%;
-  left: 50%;
+ /*  left: 70%; */
+ text-align: end;
   width: 50%;
   font-size: 55px;
   text-transform: uppercase;
