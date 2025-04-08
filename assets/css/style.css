@@ -6337,9 +6337,9 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   margin: auto;
 }
 
-.v-dark .brand-item img {
+/* .v-dark .brand-item img {
   filter: invert(1);
-}
+} */
 
 @media only screen and (max-width: 991px) {
   .box-brands {
