@@ -2777,7 +2777,8 @@ a:hover, a:active {
 }
 
 .header-personal .bg-gradient {
-  background: linear-gradient(318deg, var(--bg-color) 10%, var(--theme-color) 50%, var(--theme-color) 40%, var(--bg-color) 89%);
+  /* background: linear-gradient(318deg, var(--bg-color) 10%, var(--theme-color) 50%, var(--theme-color) 40%, var(--bg-color) 89%); */
+  background: var(--theme-color);
 }
 @media only screen and (max-width: 991px) {
   .header-personal .p-relative.dsn-hero-parallax-title.h-100-v.d-flex.z-index-1 {
@@ -4795,7 +4796,7 @@ body.error404 .sm-title-block span {
 }
 .footer-personal .copyright {
   font-size: 14px;
-  text-align: right;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .footer-personal .copyright {
@@ -7101,7 +7102,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   top: 15%;
  /*  left: 70%; */
  text-align: end;
-  width: 50%;
+  width: 52%;
   font-size: 55px;
   text-transform: uppercase;
 }
